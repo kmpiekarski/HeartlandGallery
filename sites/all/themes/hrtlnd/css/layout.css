@@ -1,0 +1,301 @@
+a {text-decoration:none;}
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+#logo {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 33pt;
+/*	margin-top:-16pt;	*/
+}
+#logo a {
+	color:#000;
+}
+#logo span {
+	font-size:8pt;
+	visibility:hidden;
+}
+#main-container {
+	width:800px;
+	min-height:500px;
+	/*border:1px dotted #FCF;*/
+	margin: 60px auto;
+	margin-top:
+}
+#sidebar-left {
+	width:200px;
+	float:left;
+}
+#main-nav {
+	text-transform:lowercase;
+	
+}
+#main-nav ul {
+	margin:0px;
+	padding:0px;
+}
+#main-nav ul li {
+	list-style:none !;
+	margin-bottom:5px;
+	padding:2px;
+	background-color:#333;
+	color:#FFF;
+}
+
+#main-nav ul li span{
+	/*background-image:url(../images/pink-repeat.png);*/
+	background-color:#333;
+	padding:2px 5px;
+}
+#main-nav ul li span a {
+	color:#FFF;
+	text-decoration:none;
+}
+/*#main-nav ul li:hover, 
+#main-nav ul li:hover span {
+	background-color:#669;
+}*/
+#info {
+	width: 200px;
+	font-size:12px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:justify;
+}
+#info a {
+	color:#333;	
+}
+/*-------- CONTENT --------*/
+#content {
+	width: 500px;
+	margin-left: 300px
+}
+#content a* {
+	text-decoration:none;
+}
+.program-node {
+	width: 500px;
+	height:150px;
+	/*border:#F6C solid 1px;*/
+	margin-bottom:30px;
+	background-repeat:no-repeat;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+}
+.program-image {
+	position:absolute;
+}
+.program-type {
+	height:150px;	
+	width:25px;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:-27px;
+	border-right: dotted 2px #FFF;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.program-type.Music {
+	background:url(../images/program-music.png);
+	background-color:#F9F;
+}
+
+.program-type.Screening {
+	background:url(../images/program-screening.png);
+	background-color:#9CF;
+}
+
+.program-type.Class {
+	background:url(../images/program-class.png);
+	background-color:#296;
+}
+
+.program-type.Exhibit {
+	background:url(../images/program-exhibit.png);
+	background-color:#18B;
+}
+.program-type.Market {
+	background:url(../images/program-market.png);
+	background-color:#F96;
+}
+.program-type.Gathering {
+	background:url(../images/program-gathering.png);
+	background-color:#999;
+}
+
+.program-date,
+.program-node-date {
+	background-image:url(../images/opaque-black.png);
+	background-repeat:repeat;
+	text-transform:uppercase;
+	position: absolute;
+	font-size: 20px;
+	max-width: 400px;
+	text-shadow: -1px 1px 1px #6FF;
+	color:#FFF;
+	padding-left:5px;
+	padding-right:5px;
+}
+.program-title,
+.program-node-title {
+	margin-top: 102px;
+	font-size: 20px;
+	max-width: 400px;
+	background-image:url(../images/opaque-black.png);
+	background-repeat:repeat;
+	text-shadow: -1px 1px 1px #33F;
+	color:#FFF;
+	position: relative;
+	top: 102px;
+	padding-left:5px;
+}
+.program-description {
+	width:500px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;	
+}
+/*-------- FOOTER --------*/
+
+#footer {
+	height:50px;
+	font-size:10px;
+	margin: 0px auto;
+	width:900px;
+	color:#CCC;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/*--------------- PROGRAM NODE -----------------*/
+
+
+.program-node-image {
+	width: 500px;
+	height:auto;
+	/*border:#F6C solid 1px;*/
+	margin-bottom:30px;
+	background-repeat:no-repeat;
+}
+#program-node-image-credit{
+	position:absolute;
+	margin-top: -49px;
+	width:500px;
+	font-size:12px;
+	text-align:right;
+	text-shadow: 1px 1px #000;
+}
+
+#program-node-image-credit,
+#program-node-image-credit a {
+	color: #FFF;
+}
+
+.program-node-type {
+	height:150px;	
+	width:25px;
+	background-repeat:no-repeat;
+	margin-left:-27px;
+	border-right: dotted 2px #FFF;
+}
+#program-node-type {
+	color:#FFF;
+	text-transform:uppercase;	
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+/*	background: #F9F;*/
+	padding: 3px 4px 1px 4px;
+	font-size:18px;
+	font-style: italic;
+}
+
+#program-node-type.Market {
+	background-color:#F96;
+}
+#program-node-type.Music {
+	background-color:#F9F;
+}
+#program-node-type.Screening {
+	background-color:#9CF;
+}
+#program-node-type.Gathering {
+	background-color:#999;
+}
+#program-node-type.Exhibit {
+	background-color:#18B;
+}
+#program-node-type.Class {
+	background-color:#FCC;	
+}
+
+
+#program-node-type.music {background-color:#F9F;
+}
+#program-node-type.class {
+	background-color:#FCC;
+}
+#program-node-type.exhibit {
+	background-color:#C9F;
+}
+
+.program-node-type.music {
+	background:url(images/program-node-music.png);
+	background-color:#F9F;
+}
+.program-node-type.screening {
+background-color:#9CF;
+}
+.program-node-type.class {
+	background:url(images/program-node-class.png);
+	background-color:#FCC;
+}
+.program-node-type.market {
+	background:url(images/program-node-market.png);
+	background-color:#FC0;
+}
+
+.program-node-type.exhibit {
+	background:url(images/program-node-exhibit.png);
+	background-color:#C9F;
+}
+
+.program-node-date {
+	/*background-image:url(images/opaque-black.png);
+	background-repeat:repeat;*/
+	font-size: 20px;
+	max-width: 500px;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	color:#FFF;
+	padding-top:0px;
+	text-transform:uppercase;
+	position:absolute;
+}
+.program-node-title {
+	font-size: 20px;
+	max-width: 500px;
+	top: auto !important;
+	margin-top: 24px !important;
+	background-repeat: repeat;
+	color: white;
+	margin-bottom: 64px;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+/*	bottom: 0px;*/
+}
+.program-node-description {
+	width:500px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;	
+}
+
+h2 {
+	font-size: 11px;
+	border-bottom: 1px solid #999;
+	margin-right: 30px;
+	font-weight: normal;
+	font-style: italic;
+}
+.view-display-id-block_2 {
+	font-size:10px;
+}

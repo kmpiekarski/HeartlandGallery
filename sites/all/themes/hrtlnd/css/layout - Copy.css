@@ -1,0 +1,219 @@
+a {text-decoration:none;}
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+#logo {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 33pt;
+	margin-top:-16pt;
+}
+#logo a {
+	color:#000;
+}
+#logo span {
+	font-size:8pt;
+	visibility:hidden;
+}
+#main-container {
+	width:800px;
+	min-height:500px;
+	/*border:1px dotted #FCF;*/
+	margin: 60px auto;
+	margin-top:
+}
+#sidebar-left {
+	width:200px;
+	float:left;
+}
+#main-nav {
+	text-transform:lowercase;
+	
+}
+#main-nav ul {
+	margin:0px;
+	padding:0px;
+}
+#main-nav ul li {
+	list-style:none !;
+	margin-bottom:5px;
+	padding:2px;
+	background-color:#333;
+	color:#FFF;
+}
+
+#main-nav ul li span{
+	/*background-image:url(../images/pink-repeat.png);*/
+	background-color:#333;
+	padding:2px 5px;
+}
+#main-nav ul li span a {
+	color:#FFF;
+	text-decoration:none;
+}
+/*#main-nav ul li:hover, 
+#main-nav ul li:hover span {
+	background-color:#669;
+}*/
+#info {
+	width: 200px;
+	font-size:12px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:justify;
+}
+#info a {
+	color:#333;	
+}
+/*-------- CONTENT --------*/
+#content {
+	width: 700px;
+	margin-left: 300px
+}
+#content a* {
+	text-decoration:none;
+}
+.program-node {
+	width: 500px;
+	height:150px;
+	/*border:#F6C solid 1px;*/
+	margin-bottom:30px;
+	background-repeat:no-repeat;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+}
+.program-image {
+	position:absolute;
+}
+.program-type {
+	height:150px;	
+	width:25px;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:-27px;
+	border-right: dotted 2px #FFF;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.program-type.Music {
+	background:url(../images/program-music.png);
+	background-color:#F9F;
+}
+
+.program-type.Class {
+	background:url(../images/program-class.png);
+	background-color:#FCC;
+}
+
+.program-type.Exhibit {
+	background:url(../images/program-exhibit.png);
+	background-color:#C9F;
+}
+
+.program-date {
+	background-image:url(../images/opaque-black.png);
+	background-repeat:repeat;
+	text-transform:uppercase;
+	position: absolute;
+	font-size: 20px;
+	max-width: 400px;
+	text-shadow: -1px 1px 1px #6FF;
+	color:#FFF;
+	padding-left:5px;
+}
+.program-title {
+	position:relative;
+	margin-top: 102px;
+	font-size: 20px;
+	max-width: 400px;
+	background-image:url(../images/opaque-black.png);
+	background-repeat:repeat;
+	text-shadow: -1px 1px 1px #33F;
+	color:#FFF;
+	position: relative;
+	top: 102px;
+	padding-left:5px;
+}
+.program-description {
+	width:500px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;	
+}
+/*-------- FOOTER --------*/
+
+#footer {
+	height:50px;
+	font-size:10px;
+	margin: 0px auto;
+	width:900px;
+	color:#CCC;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/*--------------- PROGRAM NODE -----------------*/
+
+
+.program-node-image {
+	width: 500px;
+	height:auto;
+	/*border:#F6C solid 1px;*/
+	margin-bottom:30px;
+	background-repeat:no-repeat;
+}
+
+.program-node-type {
+	height:150px;	
+	width:25px;
+	background-repeat:no-repeat;
+	margin-left:-27px;
+	border-right: dotted 2px #FFF;
+}
+#program-node-type {
+	color:#03F;
+	text-transform:uppercase;	
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.program-node-type.music {
+	background:url(images/program-node-music.png);
+	background-color:#F9F;
+}
+
+.program-node-type.class {
+	background:url(images/program-node-class.png);
+	background-color:#FCC;
+}
+
+.program-node-type.exhibit {
+	background:url(images/program-node-exhibit.png);
+	background-color:#C9F;
+}
+
+.program-node-date {
+	/*background-image:url(images/opaque-black.png);
+	background-repeat:repeat;*/
+	font-size: 20px;
+	max-width: 500px;
+	/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	color:#000;
+	padding-top:5px;
+	text-decoration:underline;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.program-node-title {
+	font-size: 20px;
+	max-width: 500px;
+	padding-bottom:3px;
+	background-repeat:repeat;
+	color:#000;
+/*	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	margin-bottom:25px;
+	border-bottom:#CCC solid 1px;
+}
+.program-node-description {
+	width:500px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;	
+}
